@@ -1,3 +1,4 @@
+/* General Reset */
 * {
     margin: 0;
     padding: 0;
@@ -5,80 +6,95 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #5C258D, #4389A2);
+    color: #fff;
 }
 
 header {
-    background: #5c9ead;
-    color: #fff;
-    padding: 10px 0;
+    background: rgba(0, 0, 0, 0.7);
     text-align: center;
+    padding: 40px 0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 header h1 {
-    font-size: 3rem;
-    margin-bottom: 10px;
+    font-size: 4rem;
+    letter-spacing: 3px;
+    color: #ffdd57;
 }
 
 header p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    color: #ffffff;
 }
 
 nav ul {
-    background: #333;
-    color: #fff;
     display: flex;
     justify-content: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px 0;
+    margin-bottom: 30px;
     list-style-type: none;
-    padding: 10px;
 }
 
 nav ul li {
-    margin: 0 20px;
+    margin: 0 15px;
 }
 
 nav ul li a {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
-    font-weight: bold;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 10px;
+    transition: color 0.3s, border-bottom 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffdd57;
+    border-bottom: 2px solid #ffdd57;
 }
 
 .container {
     width: 80%;
-    margin: 20px auto;
-    padding: 20px;
-    background: #fff;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
 }
 
 h2 {
     font-size: 2.5rem;
-    color: #333;
-    text-align: center;
     margin-bottom: 20px;
+    color: #ffdd57;
+    text-align: center;
 }
 
 .program {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .program h3 {
     font-size: 1.8rem;
-    color: #5c9ead;
+    color: #ffdd57;
+    margin-bottom: 10px;
 }
 
 footer {
-    background: #333;
-    color: #fff;
+    background: rgba(0, 0, 0, 0.8);
     text-align: center;
-    padding: 10px 0;
-    margin-top: 20px;
+    padding: 20px 0;
+    margin-top: 40px;
 }
 
 footer a {
-    color: #5c9ead;
+    color: #ffdd57;
     text-decoration: none;
+    font-weight: 600;
+}
+
+footer p {
+    color: #ffffff;
 }
